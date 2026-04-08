@@ -43,6 +43,6 @@ This repository contains an algorithmic trading system for BTC/USD  options. It 
 
 ## Results
 
-See towards the end, the section Results in the main code `Option_Trade_Algo_BTC.ipynb`. 
+For results see towards the end of the main  code `Option_Trade_Algo_BTC.ipynb` --- the section named Results 
 
-We see that our code proves to be **profitable**. Specifically the implied volatility code with dail dynamic hedging seem to work better, since the profits/losses seem to be less volatile, which is good for a live market.
+We see that our code proves to be **profitable**. Specifically the implied volatility code with daily dynamic hedging seem to work better, since the profits/losses seem to be less volatile, which is good for a live market.
