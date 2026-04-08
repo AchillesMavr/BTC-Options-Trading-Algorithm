@@ -35,7 +35,7 @@ This repository contains an algorithmic trading system for BTC/USD  options. It 
 
     - yearList: a list for which years we want to trade for.
     - monthList: a list for which months we want to trade for
-    - TradeType: Historical or Implied (for the implied look at ImpliedVolTrading() function, where one can change using cumulative av. or exponential weighted average by commenting or uncommenting properly) 
+    - TradeType: Historical or Implied (for the implied look at ImpliedVolTrading() function, where one can change using cumulative average or exponential weighted average by commenting or uncommenting properly) 
     - spread: the spread we make arounf my market to trading against other traders.
     - longPositionMax: Amount of long position we allow.
     - shortPositionMax: Amount of sort position we allow (more dangerous).
