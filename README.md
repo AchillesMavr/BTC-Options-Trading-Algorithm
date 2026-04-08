@@ -16,7 +16,7 @@ This repository contains an algorithmic trading system for BTC/USD  options. It 
   - You may need to import certain libraries (e.g. cctx, tardis) and other standard imports. For the two mentioned libraries the second "cell" in  `Data_Format_Utility.ipynb` includes how to import them.  
   - We develop a trading algorithm to trade BTC/USD options, backtesting for 3 years against the market.  
   - We mainly used two large ideas for calculating our fair volality (crucial if we want to trade with profit).
-  - 
+   
     I) Historical volatility: using information for the past 30 days.
     
     II) Implied volatility (with or without dynamic Delta hedging): Here basically we found the general implied volatility of the market using a cumulative average (or exponential weighted average), updating the volatility as new quotes come in.
