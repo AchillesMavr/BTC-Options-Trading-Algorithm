@@ -5,6 +5,7 @@ This repository contains an algorithmic trading system for BTC/USD  options. It 
 
 - **`DataFormat`** (replace with actual filename)  
   Handles data preprocessing and formatting to ensure the main algorithm receives clean, structured data.
+  
   Read files taking from Tardis (Deribit allows us to get the option quotes for the first day of each month for free -- we make use of that).
   We format the files so only ATM options are considered (this means we mainly care about 1D volatility curve w.r.t. time expiration --- no 2D curve including Strikes needed for our trading algorithm).
   We format the files so that only options that expire within the same month are considered (we have less quotes and we avoid the same quotes being traded for consecutive months --- If allowed the main code below would need to change).
